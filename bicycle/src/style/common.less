@@ -1,0 +1,39 @@
+@import './default.less';
+@import './loading.less';
+// @colorA:"#f00";
+// div{
+//     color:@colorA
+// }
+.container{
+    display:flex;
+    .nav-left{
+         //width:15%;//这些带着也行
+        // min-width:180px;
+        color: #fff;
+        //充满全屏，css3中的
+        height: calc(100vh);
+        background: #001529;
+    }
+    .main{
+        //flex:1;
+        height: calc(100vh);
+        background: @colorL;
+        overflow: auto;
+    }
+    .content{
+        position: relative;
+        padding:20px;
+    }
+}
+
+//table表格统一样式
+.content-wrap{
+    background: #ffffff;
+    border:1px solid #e8e8e8;
+    //表头没有border
+    margin-top:-3px;
+    //左右的border也隐藏掉
+    .ant-table-wrapper{
+        margin:0 -2px 0 -1px;
+    }
+}
