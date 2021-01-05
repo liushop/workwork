@@ -53,7 +53,7 @@
     "test": "node scripts/test.js --env=jsdom"
   },
   "devDependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "echarts": "^4.2.0-rc.1",
     "echarts-for-react": "^2.0.15-beta.0",
     "less": "^2.7.3",
